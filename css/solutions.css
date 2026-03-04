@@ -197,6 +197,7 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 15px 0;
+    position: relative;
 }
 
 .progress-fill {
@@ -344,8 +345,13 @@ div.exercise-item:nth-child(2)::before {
     text-align: left;     
 }
 /*papabile percorso per % all'interno della barra*/
-.progress-section:nth-last-child(2)::after {
-content: 65%;
-display: block;
-font-size: 18px;
-}
+.progress-bar::after {
+  content: "65%";          
+  position: absolute;      
+  left: 50%;                
+  top: 50%;                 
+  transform: translate(33%, -47%); 
+  font-weight: bold;
+  color: #ffffff;     
+  font-size: 12px;     
+ }   
