@@ -330,7 +330,7 @@ div.exercise-item:nth-child(4) {
 div.exercise-item:nth-child(4)::before {
     content: "\26A1"; 
     display: block;
-    font-size: 2rem;
+    font-size: 18px;
     margin-bottom: 10px;
-    text-align: center;   
+    text-align: left;   
 }
