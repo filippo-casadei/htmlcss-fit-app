@@ -367,4 +367,12 @@ div.exercise-item:nth-child(2)::before {
     position: absolute;
  }
 
- 
+ .quote-box > p::after {
+    content: "”";
+    font-size: 73px;
+    margin-left: 5px;
+    display: inline-block;
+    transform: translate(68px, -10px);
+    position: absolute;
+ }
+
