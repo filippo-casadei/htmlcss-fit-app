@@ -263,3 +263,13 @@ body {
 .bottom-spacer {
 	height: 80px;
 }
+
+/* MODIFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
+.stats-container .stats-grid:first-child::before {
+    content: "\1F525"; 
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
