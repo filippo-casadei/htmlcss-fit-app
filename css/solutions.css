@@ -258,6 +258,7 @@ body {
 	text-align: center;
 	position: relative;
 	font-style: italic;
+    position: relative;
 }
 
 /* Spacer per la navigation fissa */
@@ -355,3 +356,15 @@ div.exercise-item:nth-child(2)::before {
   color: #ffffff;     
   font-size: 12px;     
  }   
+
+ /*Prova inserimento virgolette*/
+ .quote-box > p::before {
+    content: "“";               
+    font-size: 73px;
+    margin-right: 5px;
+    display: inline-block;      
+    transform: translate(-33px, -44px);
+    position: absolute;
+ }
+
+ 
