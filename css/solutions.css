@@ -303,5 +303,7 @@ body {
 
 /*papabile percorso per modifica seconda cella- seconda sezione*/
 .workout-plan:nth-child(3) {
-    
+    background-color: #f5c672;
+    border-left: 5px solid #e67a0f;
+    border-radius: 8px;
 }
