@@ -300,3 +300,8 @@ body {
     font-size: 0.9rem;
     margin-top: 5px;
 }
+
+/*papabile percorso per modifica seconda cella- seconda sezione*/
+.workout-plan:nth-child(3) {
+    
+}
