@@ -295,3 +295,8 @@ body {
 }
 
 /* papabile percorso per scritta bianca terza cella*/
+.stats-grid:last-child .stat-label {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
