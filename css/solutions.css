@@ -326,3 +326,11 @@ div.exercise-item:nth-child(4) {
     border-radius: 8px;
 }
 
+/*papabile percorso per icona fulmine quarta cella*/
+div.exercise-item:nth-child(4)::before {
+    content: "\26A1"; 
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;   
+}
