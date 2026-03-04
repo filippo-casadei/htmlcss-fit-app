@@ -266,10 +266,17 @@ body {
 
 /* MODIFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 
+
+/* Icona Fuocherello*/
 .stats-container .stats-grid:first-child::before {
     content: "\1F525"; 
     display: block;
     font-size: 2rem;
     margin-bottom: 10px;
     text-align: center;
+}
+
+/*papabile percorso per background terza cella*/
+.stats-container .stats-grid:last-child {
+
 }
