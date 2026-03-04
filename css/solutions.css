@@ -309,6 +309,11 @@ body {
 }
 
 /*papabile percorso per modifica prima cella sezione terza*/
-div:[attr="Push"] [att="Mountain"] {
-    
-} 
+div.exercise-item:nth-child(1) {
+    background-color: #b4e9b4;
+    margin: 8px 0;
+    padding: 15px;
+    border-left: 4px solid #1bc329;
+    border-radius: 8px;
+}
+
