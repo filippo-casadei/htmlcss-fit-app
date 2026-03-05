@@ -376,3 +376,7 @@ div.exercise-item:nth-child(2)::before {
     position: absolute;
  }
 
+
+/* inserire modifiche a
+- 3 pulsanti peso obbiettivo, allenamenti settimana e note personali. hover
+- pulsante salva obbiettivi transition:translate 0,5 ease background-color 0,5 ease boxshadow
